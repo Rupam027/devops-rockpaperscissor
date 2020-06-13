@@ -73,7 +73,7 @@ font-weight: 400;
 <input id="field" placeholder="PLAYER NAME" /> 
 <BR> 
 <br>
-<input style="width:250px;" id ="rounds" placeholder="ENTER NO. OF ROUNDS" value=""/>
+<input style="width:250px;" id ="rounds" placeholder="ENTER NO. OF ROUNDS"/>
 <br> 
 <br>
 <button onclick="read()">START</button>

@@ -17,9 +17,9 @@ function computerchoice()
 }
 function fin(){
  
-   console.log("in");
+  
    if(pscore > compscore)
-   alert(localStorage["names"] + "is the winner") ; 
+   alert(localStorage["name"] + "is the winner") ; 
    else if(compscore > pscore)
    alert(COMPUTER + "wins") ; 
    else
@@ -184,7 +184,7 @@ async function paper()
    document.getElementById("computer").style.backgroundColor="white" ;
    document.getElementById("compchoice").src="blank.jpg" ;
    document.getElementById("pchoice").src="blank.jpg" ;
-   console.log(round , tround+1)
+   
    if(round ==  (tround + 1))
    fin();
    document.getElementById("rnumber").innerHTML= round ;

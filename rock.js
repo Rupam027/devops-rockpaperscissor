@@ -17,9 +17,9 @@ function computerchoice()
 }
 function fin(){
  
-   console.log("in");
+  
    if(pscore > compscore)
-   alert(localStorage["names"] + "is the winner") ; 
+   alert(localStorage["name"] + "is the winner") ; 
    else if(compscore > pscore)
    alert(COMPUTER + "wins") ; 
    else
