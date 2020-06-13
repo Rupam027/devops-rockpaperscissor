@@ -4,8 +4,16 @@
 <link href="bootstrap.css" rel="stylesheet"/>
 <script type="text/javascript" >
 function read(){
-localStorage["name"] = document.getElementById("field").value ;
-localStorage["round"] = document.getElementById("rounds").value; 
+var name = document.getElementById("field").value ;
+var round = document.getElementById("rounds").value;
+if(name == null || round == null || round == 0)
+alert("PROVIDE DETAILS CAREFULLY");
+else{
+localStorage["name"] = name ;
+localStorage["round"] = round; 
+window.location ="rock1.htm"; 
+}
+
 
 }
 
@@ -69,7 +77,7 @@ font-weight: 400;
 <br> 
 <hr> 
 <br> 
-<form action="rock1.htm">
+
 <input id="field" placeholder="PLAYER NAME" /> 
 <BR> 
 <br>
@@ -77,7 +85,7 @@ font-weight: 400;
 <br> 
 <br>
 <button onclick="read()">START</button>
-</form>
+
 <footer><center> DEVOPS CORPORATION </center></footer>
 </body>
 </html>
