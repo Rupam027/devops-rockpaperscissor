@@ -19,9 +19,9 @@ function fin(){
  
   
    if(pscore > compscore)
-   alert(localStorage["name"] + "is the winner") ; 
+   alert(localStorage["name"] + " is the winner") ; 
    else if(compscore > pscore)
-   alert(COMPUTER + "wins") ; 
+   alert("COMPUTER wins") ; 
    else
    alert("tie") ;
    
