@@ -6,7 +6,7 @@
 function read(){
 var name = document.getElementById("field").value ;
 var round = document.getElementById("rounds").value;
-if(name == null || round == null || round == 0)
+if(name == "" || round == "" || round == 0)
 alert("PROVIDE DETAILS CAREFULLY");
 else{
 localStorage["name"] = name ;
@@ -56,6 +56,12 @@ display: block;
 }
 
 footer{
+position: fixed;
+left: 0;
+bottom: 0;
+text-align: center;
+width: 100%;
+
 background-color: yellow; 
 font-weight: 400;
 }
