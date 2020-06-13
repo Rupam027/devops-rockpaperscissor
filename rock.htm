@@ -1,0 +1,83 @@
+<html>
+<head>
+<title> ROCK PAPER SCCISSOR </title>
+<link href="bootstrap.css" rel="stylesheet"/>
+<script type="text/javascript" >
+function read(){
+localStorage["name"] = document.getElementById("field").value ;
+localStorage["round"] = document.getElementById("rounds").value; 
+
+}
+
+</script>
+</script>
+<style type="text/css">
+
+header{
+background-color: green;
+color : white; 
+font-style: oblique;
+font-weight: 400;
+
+
+}
+
+button{
+
+background-color: rgb(255,207,80);
+color: white ; 
+font-family: sans-serif;
+font-size: 30px;
+font-style: oblique;
+font-weight: 400;
+width: 500px; 
+height: 50px;
+border-top-left-radius: 30px;
+border-bottom-left-radius:30px;
+border-top-right-radius: 30px;
+border-bottom-right-radius:30px;  
+}
+input{
+font-family: sans-serif;
+font-size: 20px ;
+font-style: oblique;
+display: block;
+
+
+
+}
+
+footer{
+background-color: yellow; 
+font-weight: 400;
+}
+</style>
+
+</head>
+
+<body style="background-color: lawngreen;">
+<header><center><h1>ROCK PAPER SCISSOR </h1></center></header>
+
+<h3> ABOUT </h3> 
+
+<p> HEY FOLKS !!! REMEMBER THOSE DAYS WHEN WE ALL USED  TO PLAY IN OUR  CHILDHOOD . <br> YES , IT IS NONE OTHER THAN  OUR BELOVED GAME <STRONG> STONE PAPER SCISSOR </STRONG>  .<br> 
+ IT WAS MORE THAN A GAME WHICH HELPED US IN MAKING MANY DECISIONS . <br> FOR INSTANCE - IN GULLY CRICKET , THE 
+ DECISION WHO WILL BAT FIRST WAS TAKEN BY THIS GAME .<br> 
+ HERE , COMES THE WEB VERSION OF THE GAME WHICH YOU CAN PLAY ANYTIME AND ENJOY !!!
+</p>
+
+<br> 
+<hr> 
+<br> 
+<form action="rock1.htm">
+<input id="field" placeholder="PLAYER NAME" /> 
+<BR> 
+<br>
+<input style="width:250px;" id ="rounds" placeholder="ENTER NO. OF ROUNDS"/>
+<br> 
+<br>
+<button onclick="read()">START</button>
+</form>
+<footer><center> DEVOPS CORPORATION </center></footer>
+</body>
+</html>
